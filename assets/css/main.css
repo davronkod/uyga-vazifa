@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+.card1 {
+    grid-area: card1;
+    background-image: url("../images/pexels-james-wheeler-417074.jpg");
+}
+
+.card2 {
+    grid-area: card2;
+    background-image: url("../images/Altja_jõgi_Lahemaal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.card3 {
+    grid-area: card3;
+    background-image: url("../images/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card4 {
+    grid-area: card4;
+    background-image: url("../images/nature-quotes-landscape-1648265299.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.cards1 {
+    display: grid;
+    grid-area: cards1;
+    grid-template-areas: "card1 card1"
+        "card1 card1"
+        "card2 card2"
+        "card3 card4";
+    grid-gap: 10px;
+
+}
+
+.card5 {
+    grid-area: card5;
+    background-image: url("../images/images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card6 {
+    grid-area: card6;
+    background-image: url("../images/Zugpsitze_mountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card7 {
+    grid-area: card7;
+    background-image: url("../images/download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card8 {
+    grid-area: card8;
+    background-image: url("../images/download\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card9 {
+    grid-area: card9;
+    background-image: url("../images/download\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card10 {
+    grid-area: card10;
+    background-image: url("../images/p0dldn2l.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card11 {
+    grid-area: card11;
+    background-image: url("../images/images\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card12 {
+    grid-area: card12;
+    background-image: url("../images/Nature-action-intro_i1140.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card13 {
+    grid-area: card13;
+    background-image: url("../images/2536501_Smoky_59-2000-0271fc9eae6b4efca5d9b976c820925e.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.car1 {
+    grid-area: car1;
+    display: grid;
+    grid-template-areas: "card5"
+        "card5"
+        "card6"
+        "card6";
+    grid-gap: 10px;
+
+}
+
+.car2 {
+    grid-area: car2;
+    display: grid;
+    grid-template-areas: "card7"
+        "card8"
+        "card8"
+        "card9";
+    grid-gap: 10px;
+
+}
+
+
+
+.cards2 {
+    display: grid;
+    grid-area: cards2;
+    grid-template-areas: "car1 car2";
+    grid-gap: 10px;
+
+}
+
+
+.cards3 {
+    display: grid;
+    grid-area: cards3;
+    grid-template-areas: "card10 card10"
+        "card11 card12"
+        "card13 card13"
+        "card13 card13";
+    grid-gap: 10px;
+}
+
+.container {
+    width: 1500px;
+    height: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "cards1 cards1 cards2 cards2 cards3 cards3";
+    grid-gap: 10px;
+}
